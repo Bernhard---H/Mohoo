@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mohoo</id>
+    <name>Mohoo</name>
+    <summary>Automates some integration tasks of mailcow into NextCloud</summary>
+    <description><![CDATA[This APP tries to automate some of the initial setup tasks using the mailcow API:
+
+* Setup OAuth
+* easier Setup of NextCloud Mail App]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="halbart.bernhard+mohoo@gmail.com" >Bernhard Halbartschlager</author>
+    <namespace>Mohoo</namespace>
+    <category>office</category>
+    <category>tools</category>
+    <bugs>https://github.com/Bernhard---H/Mohoo/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Mohoo</name>
+            <route>mohoo.page.index</route>
+        </navigation>
+    </navigations>
+</info>
