@@ -1,5 +1,5 @@
 {
-    "name": "Mohoo",
+    "name": "bernhard/mohoo",
     "description": "Automates some integration tasks of mailcow into NextCloud",
     "type": "project",
     "license": "AGPL",
@@ -8,8 +8,13 @@
             "name": "Bernhard Halbartschlager"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "OCA\\Mohoo\\": "lib"
+        }
+    },
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "^5.4"
+        "phpunit/phpunit": "^9.3.8"
     }
 }
