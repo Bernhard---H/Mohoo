@@ -1,0 +1,28 @@
+
+#mohoo-settings {
+    padding: 30px;
+}
+
+#mohoo-settings .h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1.7rem;
+}
+
+/*#mohoo-settings .h2 {*/
+/*    font-size: 20px;*/
+/*    font-weight: bold;*/
+/*    margin-top: 1.5rem;*/
+/*}*/
+
+#mohoo-settings .text-input {
+    width: 288px;
+    display: flex;
+    padding-bottom: 1rem;
+    flex-direction: column;
+}
+
+#mohoo-settings .text-input input {
+    flex-grow: 1;
+    width: auto;
+}
