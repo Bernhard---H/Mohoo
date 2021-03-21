@@ -8,8 +8,11 @@ style('mohoo', 'admin');
 
     <form class="form">
         <label class="text-input">
-            Mailcow API Key
-            <input type="text" name="api-key" placeholder="00000000-0000-0000-0000-000000000000"/>
+            <div class="label-logo">
+                <img src="/apps/mohoo/img/logo-mailcow.svg"
+                <span>Mailcow API Key</span>
+            </div>
+            <input type="text" name="api-key" placeholder="00000000-0000-0000-0000-000000000000" />
         </label>
         <button>Save</button>
     </form>

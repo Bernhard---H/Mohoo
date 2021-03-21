@@ -26,3 +26,14 @@
     flex-grow: 1;
     width: auto;
 }
+
+#mohoo-settings .text-input .label-logo {
+    flex-grow: 1;
+    display: flex;
+    padding-bottom: 0.5rem;
+    flex-direction: row;
+    width: auto;
+}
+#mohoo-settings .text-input .label-logo img {
+    width: 30px;
+}
